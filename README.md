@@ -1,5 +1,5 @@
 # DeltaCata
-DeltaCata is a siamese geometric graph neural network for direct predictions of enzyme kinetic parameter changes upon residue substitutions ($\Delta$*k*~cat~ and $\Delta$*K*~m~). DeltaCata is easy to install and run, and is also fast and accurate (surpassing state-of-the-art kinetic parameter predictors and general-purpose protein design models). 
+DeltaCata is a siamese geometric graph neural network for direct predictions of enzyme kinetic parameter changes upon residue substitutions ($\Delta$*k*<sub>cat</sub> and $\Delta$*K*<sub>m</sub>). DeltaCata is easy to install and run, and is also fast and accurate (surpassing state-of-the-art kinetic parameter predictors and general-purpose protein design models). 
 <img src="./DeltaCata.jpg">
 
 ## 📖 Table of Contents
@@ -67,7 +67,7 @@ bash reproduce.bash
 
 
 ## 📊 Data Collection <a name="data-collection"></a>
-We curated data of mutation-induced changes in enzyme kinetic parameters ($\Delta$*k*~cat~ and $\Delta$*K*~m~) from BRENDA and SABIO-RK. The pipeline for constructing the DeltaCata-DB dataset is provided in `Data_collection/`.
+We curated data of mutation-induced changes in enzyme kinetic parameters ($\Delta$*k*<sub>cat</sub> and $\Delta$*K*<sub>m</sub>) from BRENDA and SABIO-RK. The pipeline for constructing the DeltaCata-DB dataset is provided in `Data_collection/`.
 
 For quick use, ready-to-use datasets are available in `Dataset/` as `delta_kcat.csv` and `delta_km.csv`. 
 

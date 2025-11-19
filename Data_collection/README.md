@@ -1,5 +1,5 @@
 # DeltaCata-DB
-We collected *k*~cat~ and *K*~m~ entries from BRENDA and SABIO-RK. Then, the Llama language model and regular expressions were applied to extract experimental conditions (pH, temperature and buffer) from unstructured texts, followed by careful manual review to ensure accuracy. A mutation effect entry was constructed by pairing wild-type and mutant kinetic parameters from the same enzymatic reaction conducted under identical experimental conditions.
+We collected *k*<sub>cat</sub> and *K*<sub>m</sub> entries from BRENDA and SABIO-RK. Then, the Llama language model and regular expressions were applied to extract experimental conditions (pH, temperature and buffer) from unstructured texts, followed by careful manual review to ensure accuracy. A mutation effect entry was constructed by pairing wild-type and mutant kinetic parameters from the same enzymatic reaction conducted under identical experimental conditions.
 <img src="./DeltaCata_DB.svg">
 
 ## Requirements
